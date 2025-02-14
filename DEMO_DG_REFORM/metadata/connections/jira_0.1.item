@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_BEqF8OPFEe-_zbHdrMacbg" name="jira" id="_9JFBMOPEEe-_zbHdrMacbg" label="jira" dataPackage="_58AbIOq9Ee-UFeSoVg_P0w" ContextMode="true" ContextId="_5c-VwOq9Ee-UFeSoVg_P0w" contextName="dev" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/postgres?" dbVersionString="V9_X" Port="context.jira_Port" Username="context.jira_Login" Password="context.jira_Password" ServerName="context.jira_Server" DatasourceName="" FileFieldName="" SID="context.jira_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="context.jira_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.jira_Schema" supportNLS="false">
+    <taggedValue xmi:id="_BEqtAOPFEe-_zbHdrMacbg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_BFOtsOPFEe-_zbHdrMacbg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_BFa68OPFEe-_zbHdrMacbg" tag="Status" value=""/>
+    <taggedValue xmi:id="_BFa68ePFEe-_zbHdrMacbg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_BFa68uPFEe-_zbHdrMacbg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_BFa68-PFEe-_zbHdrMacbg" tag="Description" value=""/>
+    <taggedValue xmi:id="_BFa69OPFEe-_zbHdrMacbg" tag="Author" value=""/>
+    <taggedValue xmi:id="_BFa69ePFEe-_zbHdrMacbg" tag="otherParameter"/>
+    <taggedValue xmi:id="_BGxl0OPFEe-_zbHdrMacbg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_BGxl0ePFEe-_zbHdrMacbg" tag="DB ProductVersion" value="17.2"/>
+    <taggedValue xmi:id="_BGxl0uPFEe-_zbHdrMacbg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_BEqtAePFEe-_zbHdrMacbg" key="CONN_PARA_KEY_USERNAME" value="context.jira_Login"/>
+    <parameters xmi:id="_nuY0IOq9Ee-UFeSoVg_P0w" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_58AbIOq9Ee-UFeSoVg_P0w" name="postgres" dataManager="_BEqF8OPFEe-_zbHdrMacbg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_58AbIeq9Ee-UFeSoVg_P0w" name="raw"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

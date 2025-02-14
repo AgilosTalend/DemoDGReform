@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_icy3UerAEe-1f-108yEh9A" label="Demo_DG_REFORM" language="java" technicalLabel="DEMO_DG_REFORM" author="_icy3UurAEe-1f-108yEh9A" productVersion="Talend Cloud Data Fabric-8.0.1.20250126_0750-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/AgilosTalend/DemoDGReform.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_id5DgOrAEe-1f-108yEh9A" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_icy3UurAEe-1f-108yEh9A" login="sofiene.khayati@agiloscom_nfr" firstName="Sofiène" lastName="Khayati" type="DQ"/>
+  <TalendProperties:User xmi:id="_j2VdIOrAEe-1f-108yEh9A" login="maxence.van.grunderbeeck@agiloscom_nfr" firstName="Maxence" lastName="van Grunderbeeck" type="DQ"/>
+</xmi:XMI>
