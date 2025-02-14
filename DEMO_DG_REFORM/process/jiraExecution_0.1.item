@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="dev" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="" internalId="_G_SucOrCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_G_SucerCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_G_SucurCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_Password" value="enc:system.encryption.key.v1:Oalhs+ezxqCSLINvApK0iyIGLYrTQudNWHHDLXO1E68vPHErfQ==" internalId="_G_Suc-rCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="5432" internalId="_G_SudOrCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="raw" internalId="_G_SuderCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="localhost" internalId="_G_SudurCEe-1f-108yEh9A"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="production">
+    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="" internalId="_G_Sud-rCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_G_SueOrCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_G_SueerCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_Password" value="enc:system.encryption.key.v1:MOYWBax6AsQWkhCEnlZwRd2fZG4RJirPw+p2NjNgb9H8DAow0w==" internalId="_G_SueurCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="5432" internalId="_G_Sue-rCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="raw" internalId="_G_SufOrCEe-1f-108yEh9A"/>
+    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="localhost" internalId="_G_SuferCEe-1f-108yEh9A"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -110,7 +127,7 @@
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -146,7 +163,7 @@
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
