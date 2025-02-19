@@ -1,0 +1,79 @@
+{
+  "itemId" : "_plUQsO7HEe-_eJyKIhDJVA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_5c-VwOq9Ee-UFeSoVg_P0w",
+    "parameterList" : [ {
+      "id" : "_5dJ78Oq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Login"
+    }, {
+      "id" : "_5dJ78eq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Port"
+    }, {
+      "id" : "_5dJ78uq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Database"
+    }, {
+      "id" : "_5dJ78-q9Ee-UFeSoVg_P0w",
+      "name" : "jira_Schema"
+    }, {
+      "id" : "_5dJ79Oq9Ee-UFeSoVg_P0w",
+      "name" : "jira_AdditionalParams"
+    }, {
+      "id" : "_5dJ79eq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Password"
+    }, {
+      "id" : "_5dJ79uq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Server"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_5c-VwOq9Ee-UFeSoVg_P0w",
+    "parameterList" : [ {
+      "id" : "_5dJ78Oq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Login"
+    }, {
+      "id" : "_5dJ78eq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Port"
+    }, {
+      "id" : "_5dJ78uq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Database"
+    }, {
+      "id" : "_5dJ78-q9Ee-UFeSoVg_P0w",
+      "name" : "jira_Schema"
+    }, {
+      "id" : "_5dJ79Oq9Ee-UFeSoVg_P0w",
+      "name" : "jira_AdditionalParams"
+    }, {
+      "id" : "_5dJ79eq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Password"
+    }, {
+      "id" : "_5dJ79uq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Server"
+    } ]
+  }, {
+    "contextName" : "production",
+    "repoId" : "_5c-VwOq9Ee-UFeSoVg_P0w",
+    "parameterList" : [ {
+      "id" : "_5dJ7-Oq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Login"
+    }, {
+      "id" : "_5dJ7-eq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Port"
+    }, {
+      "id" : "_5dJ7-uq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Database"
+    }, {
+      "id" : "_5dJ7--q9Ee-UFeSoVg_P0w",
+      "name" : "jira_Schema"
+    }, {
+      "id" : "_5dJ7_Oq9Ee-UFeSoVg_P0w",
+      "name" : "jira_AdditionalParams"
+    }, {
+      "id" : "_5dJ7_eq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Password"
+    }, {
+      "id" : "_5dJ7_uq9Ee-UFeSoVg_P0w",
+      "name" : "jira_Server"
+    } ]
+  } ]
+}
