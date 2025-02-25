@@ -426,7 +426,7 @@
     <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" value="false"/>
     <elementParameter field="TABLE" name="HEADERS">
       <elementValue elementRef="NAME" value="&quot;Authorization&quot;" id="0"/>
-      <elementValue elementRef="VALUE" value="&quot;Bearer &quot;" id="1"/>
+      <elementValue elementRef="VALUE" value="" id="1"/>
       <elementValue elementRef="NAME" value="&quot;Accept&quot;" id="2"/>
       <elementValue elementRef="VALUE" value="&quot;application/json&quot;" id="3"/>
     </elementParameter>
