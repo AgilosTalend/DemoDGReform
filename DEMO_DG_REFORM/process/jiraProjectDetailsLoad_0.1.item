@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_8yNtwO6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" internalId="_8yNtwe6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_8yNtwu6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw" internalId="_8yNtw-6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8yNtxO6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:go7y+qnVwMOcykCCQ4X+RT8Z8i4jxHGlchitKEJczRFbZeSvYg==" internalId="_8yOU0O6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_8yOU0e6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_8yNtwO6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="5432" internalId="_8yNtwe6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_8yNtwu6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="raw" internalId="_8yNtw-6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="" internalId="_8yNtxO6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_Password" value="enc:system.encryption.key.v1:go7y+qnVwMOcykCCQ4X+RT8Z8i4jxHGlchitKEJczRFbZeSvYg==" internalId="_8yOU0O6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="localhost" internalId="_8yOU0e6jEe-_eJyKIhDJVA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="dev">
-    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_8yOU0u6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" internalId="_8yOU0-6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_8yOU1O6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw" internalId="_8yOU1e6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8yOU1u6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:RDaZ4xghoR3SKjh+M2iRlH66leOwLFD5OCDJBUHAIRSnkuYF5Q==" internalId="_8yOU1-6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_8yOU2O6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_8yOU0u6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="5432" internalId="_8yOU0-6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_8yOU1O6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="raw" internalId="_8yOU1e6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="" internalId="_8yOU1u6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_Password" value="enc:system.encryption.key.v1:RDaZ4xghoR3SKjh+M2iRlH66leOwLFD5OCDJBUHAIRSnkuYF5Q==" internalId="_8yOU1-6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="localhost" internalId="_8yOU2O6jEe-_eJyKIhDJVA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="production">
-    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_8yOU2e6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" internalId="_8yOU2u6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_8yOU2-6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw" internalId="_8yOU3O6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8yOU3e6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:V42EIxfhvtPjLPu0LYKWiTToTl3j9xjEwff/iVbq+iyTORVSJA==" internalId="_8yOU3u6jEe-_eJyKIhDJVA"/>
-    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_8yOU3-6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Login" prompt="jira_Login?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_8yOU2e6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Port" prompt="jira_Port?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="5432" internalId="_8yOU2u6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Database" prompt="jira_Database?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="postgres" internalId="_8yOU2-6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Schema" prompt="jira_Schema?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="raw" internalId="_8yOU3O6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_AdditionalParams" prompt="jira_AdditionalParams?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="" internalId="_8yOU3e6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Password" prompt="jira_Password?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_Password" value="enc:system.encryption.key.v1:V42EIxfhvtPjLPu0LYKWiTToTl3j9xjEwff/iVbq+iyTORVSJA==" internalId="_8yOU3u6jEe-_eJyKIhDJVA"/>
+    <contextParameter comment="" name="jira_Server" prompt="jira_Server?" promptNeeded="false" repositoryContextId="_5c-VwOq9Ee-UFeSoVg_P0w" type="id_String" value="localhost" internalId="_8yOU3-6jEe-_eJyKIhDJVA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -80,18 +80,18 @@
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
-    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
     <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/MVG/OneDrive - Agilos/Documents/Devart/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
@@ -113,7 +113,7 @@
     <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
     <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
     <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
     <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
     <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
     <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
@@ -127,6 +127,16 @@
   </parameters>
   <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlInput" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlInput" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_9JFBMOPEEe-_zbHdrMacbg" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -336,6 +346,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="JDK_VERSION" value="JDK_8" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8" show="false"/>
     <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
@@ -433,7 +444,7 @@
       <column comment="" key="false" length="-1" name="properties" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="projectDetailsOutput">
         <mapperTableEntries name="project_id" expression="(Integer)globalMap.get(&quot;project_id&quot;)" type="id_Integer" nullable="true"/>
@@ -488,18 +499,27 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1160" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlOutput" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlOutput" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_9JFBMOPEEe-_zbHdrMacbg" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;context.jira_Server&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;context.jira_Port&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;context.jira_Database&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.jira_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.jira_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.jira_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;context.jira_Schema&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;context.jira_Login&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GOv2Nbfg0V86MvwKpOO0IxqPtvcl3BmIl9zsJfy2ztOrNfsewHqRr1S3PjkYGHFbKBkv"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.jira_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.jira_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gF3Bw+2pzQWI94Kx5cR0jxBOGGoYe7RbWzLZhDj6cSiT23HPDscYUPLocgJ3HSBy+Q=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_project_details&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -513,7 +533,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;context.jira_AdditionalParams&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.jira_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
