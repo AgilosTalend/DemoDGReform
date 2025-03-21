@@ -130,7 +130,7 @@
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC" show="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:rSfwf8FBo3npsBFwZ3vo9azRpSDFcL0u8bnzqX11kBTDkAQWkf4=" show="false"/>
-    <elementParameter field="TEXT" name=XXXXXX" " value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
@@ -423,7 +423,7 @@
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC" show="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:aWTiEp99jb+htLt4n/+kA+gMEztGD+fwJgZ1SQgdtC+4gRfuPIs=" show="false"/>
-    <elementParameter field="TEXT" name=XXXXXX" " value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
